@@ -48,7 +48,7 @@ Below is a list of all the features (or up and coming features)
 * Mass prune members
 
 ## Installation
-To get prebuilt versions of Kora, please refer to the **[Website](https://koratool.pages.dev)**, or the **[Releases](https://github.com/zzylenn/kora/releases/latest)**
+To get prebuilt versions of Kora, please refer to the **[Website](https://koratool.pages.dev)**, or the **[Releases](https://github.com/zzylenn/kora/releases)**
 
 If you would like to build Kora yourself, use the following tutorial (Windows):
 
