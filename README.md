@@ -1,61 +1,39 @@
 # Kora
-Very simplistic Discord Tool for Webhooks & Bots.
+A streamlined, high-performance tool for Discord Webhook and Bot management.
 
-> [!WARNING]
-> I am **not responsible** for any destruction caused by this tool.
->
-> I am **not to be held at fault** for any misuse of this tool.
->
-> Use of this tool is at **your own risk**.
+> [!CAUTION]
+> **Disclaimer:** This tool is for educational and administrative purposes only. The developers assume **no responsibility** for any misuse, server damage, or violations of the Discord Terms of Service. Use at your own risk.
 
 ## Features
-Below is a list of all the features (or up and coming features)
+Kora provides a comprehensive suite of tools for rapid interaction with the Discord API.
 
-### Webhook Features
-* Send Messages
-* Delete Messages
-* Edit Messages
-* Mass Send Messages
-* Mass Delete Messages
-* Mass Embed Messages
-* Send Embedded Messages
-* Send Messages with Custom Profiles
-* Modify Webhook Profile
-* Delete Webhook
-* Nuke Webhook
+### Webhook Management
+* **Message Control:** Send, edit, and delete messages individually or in bulk.
+* **Rich Embeds:** Full support for custom embedded messages and mass-embed broadcasting.
+* **Identity Spoofing:** Send messages with custom profiles or permanently modify webhook metadata.
+* **Destruction:** Single-click deletion or full webhook nuking.
 
-### Bot Features
-* Mass delete all channels
-* Mass create spam channels
-* Mass delete all roles
-* Mass create roles
-* Mass ban all members
-* Mass kick all members
-* Delete all emojis & stickers
-* Delete all webhooks
-* Change server name & icon
-* Mass @everyone ping
-* Channel & role flood spam
-* Mass DM all members
-* Auto nickname everyone
-* Grant admin permissions
-* Full server nuke command
-* Selective nuke modes
-* Auto nuke on join
-* Adjustable nuke speed
-* Stealth mode
-* Reset server settings
-* Mass prune members
+### Bot Power-Tools
+* **Channel & Role Manipulation:** Mass creation, deletion, and flooding of server structures.
+* **Member Management:** Automated mass ban, kick, prune, and nickname synchronization.
+* **Asset Cleanup:** Instantly wipe emojis, stickers, and existing webhooks.
+* **Nuke Capabilities:** 
+  * Full-spectrum server nuke with adjustable speed.
+  * Selective modes for targeted cleanup.
+* **Spam Automation:** Mass `@everyone` pings and DM-all functionality.
 
 ## Installation
-To get prebuilt versions of Kora, please refer to the **[Website](https://koratool.pages.dev)**, or the **[Releases](https://github.com/zzylenn/kora/releases)**
 
-If you would like to build Kora yourself, use the following tutorial (Windows):
+### Prebuilt Binaries
+For a plug-and-play experience, download the latest stable builds:
+* **[Official Website](https://koratool.pages.dev)**
+* **[GitHub Releases](https://github.com/zzylenn/kora/releases)**
 
+### Manual Build (Windows)
+If you prefer to compile from source, ensure you have Python installed and run the following:
 ```cmd
-git clone https://github.com/zzylenn/kora.git
-cd kora
-cd src
-pip install -r requirements.py
+git clone [https://github.com/zzylenn/kora.git](https://github.com/zzylenn/kora.git)
+cd kora/src
+pip install -r requirements.txt
 pyinstaller kora.spec
 ```
